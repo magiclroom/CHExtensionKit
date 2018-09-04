@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name          = "CHExtensionKit"
-	s.version       = "0.0.3"
+	s.version       = "0.1.0"
 	s.summary	= "swift Extension"
 	s.homepage	= "https://github.com/magiclroom/CHExtensionKit"
 	s.license	= "MIT"
