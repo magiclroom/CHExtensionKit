@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHExtensionKit_Example' do
+  pod 'CHExtensionKit', :path => '../'
+
+  target 'CHExtensionKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
