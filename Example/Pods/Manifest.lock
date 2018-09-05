@@ -1,0 +1,23 @@
+PODS:
+  - CHExtensionKit (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CHExtensionKit (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  CHExtensionKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHExtensionKit: fe88249e10ac03e34466e01190da820e58331ed6
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 78accbd8cbf532132ae765b5e823ec1421479fe6
+
+COCOAPODS: 1.4.0

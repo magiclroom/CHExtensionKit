@@ -1,0 +1,6 @@
+framework module CHExtensionKit {
+  umbrella header "CHExtensionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

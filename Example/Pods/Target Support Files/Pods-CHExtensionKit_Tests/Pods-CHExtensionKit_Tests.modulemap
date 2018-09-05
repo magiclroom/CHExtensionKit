@@ -1,0 +1,6 @@
+framework module Pods_CHExtensionKit_Tests {
+  umbrella header "Pods-CHExtensionKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
