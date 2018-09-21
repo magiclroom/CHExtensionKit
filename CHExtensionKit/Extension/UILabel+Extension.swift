@@ -49,7 +49,7 @@ public extension UILabel {
         return CGSize(width: width, height: height)
     }
     
-    func _ek_drawText(in rect: CGRect) {
-        _ek_drawText(in: UIEdgeInsetsInsetRect(rect, contentInsets))
-    }
+//    func _ek_drawText(in rect: CGRect) {
+//        _ek_drawText(in: UIEdgeInsetsInsetRect(rect, contentInsets))
+//    }
 }
