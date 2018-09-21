@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name		= "CHExtensionKit"
-	s.version	= "0.1.3"
+	s.version	= "0.2.0"
 	s.summary	= "ExtensionKit for easy code"
 	s.description	= "first open lib, be happy to code"
 	s.homepage	= "https://github.com/magiclroom/CHExtensionKit"
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
 	s.source_files	= 'CHExtensionKit/**/*'
 	s.platform	= :ios, '8.0'
 	s.requires_arc 	= true
-	s.swift_version	= '4.1'
+	s.swift_version	= '4.0'
 
 end

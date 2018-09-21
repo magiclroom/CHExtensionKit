@@ -126,7 +126,7 @@ public extension String {
     public func substring(fromIndex minIndex: Int, toIndex maxIndex: Int) -> String {
         let start = index(startIndex, offsetBy: minIndex)
         let end = index(startIndex, offsetBy: maxIndex, limitedBy: endIndex)
-        let range = Range<String.Index>(start ..< end!)
+        let range = Range<String.Index>(uncheckedBounds: (lower: start, upper: end!))
         return String(self[range])
     }
     
