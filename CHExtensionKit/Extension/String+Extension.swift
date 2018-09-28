@@ -101,6 +101,9 @@ public extension String {
 // MARK: - 
 
 public extension String {
+//    public var isEmpty: Bool {
+//        return 0 == trimed.count
+//    }
     
     public var trimed: String {
         return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
